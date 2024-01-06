@@ -9,7 +9,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // const form = e.target;
+    // const form = e.target; 
     // const from_name = form.name.value;
     // const email = form.email.value;
     // const subject = form.subject.value;
