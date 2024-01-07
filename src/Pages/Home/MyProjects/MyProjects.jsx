@@ -132,6 +132,36 @@ const MyProjects = () => {
               </div>
             </div>
           </SwiperSlide>
+          <SwiperSlide>
+            <div className="card   bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="https://i.ibb.co/nL0T1pr/KCF-Co-Ltd-Google-Chrome-1-7-2024-7-32-01-PM.png"
+                  alt="Shoes"
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">OscorpTech Asset Management</h2>
+                <Link to="https://oscorp-tech-asset-management.web.app/">
+                  <button className="btn btn-outline btn-sm">
+                    Demo <FaLink></FaLink>
+                  </button>
+                </Link>
+                <p>
+                  <span className="font-semibold text-xl">
+                    Features of the project:
+                  </span>{" "}
+                  <br />
+                  THis website is responsive for both mobile and laptop. There
+                  is a authentication method with email and password and google
+                  login method. so that users can login and register easily
+                  using Firebase. This website has three modes based on three
+                  types of users. Employees can work for their company and
+                  Admin/HR can monitor them.
+                </p>
+              </div>
+            </div>
+          </SwiperSlide>
         </Swiper>
       </div>
     </div>
