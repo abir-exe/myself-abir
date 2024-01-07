@@ -122,7 +122,7 @@ const MyProjects = () => {
                     Features of the project:
                   </span>{" "}
                   <br />
-                  THis website is responsive for both mobile and laptop. There
+                  This website is responsive for both mobile and laptop. There
                   is a authentication method with email and password and google
                   login method. so that users can login and register easily
                   using Firebase. This website has three modes based on three
@@ -152,12 +152,7 @@ const MyProjects = () => {
                     Features of the project:
                   </span>{" "}
                   <br />
-                  THis website is responsive for both mobile and laptop. There
-                  is a authentication method with email and password and google
-                  login method. so that users can login and register easily
-                  using Firebase. This website has three modes based on three
-                  types of users. Employees can work for their company and
-                  Admin/HR can monitor them.
+                  Kagaku Consultancy Firm (KCF) is a multi-disciplined private service with expertise in Consultancy, Trading, Sourcing, and E-Commerce. KCF consults for Research and Development (R&D) Lab design, Lab set-up, Lab/pilot-scale drug synthesis, process development, and technology dossier transfer. This website is responsive for both mobile and laptop.
                 </p>
               </div>
             </div>
