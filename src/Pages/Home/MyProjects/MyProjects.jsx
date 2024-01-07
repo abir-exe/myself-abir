@@ -141,8 +141,8 @@ const MyProjects = () => {
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">OscorpTech Asset Management</h2>
-                <Link to="https://oscorp-tech-asset-management.web.app/">
+                <h2 className="card-title">KCF Co. LTD.</h2>
+                <Link to="https://kcf-react.surge.sh/">
                   <button className="btn btn-outline btn-sm">
                     Demo <FaLink></FaLink>
                   </button>
