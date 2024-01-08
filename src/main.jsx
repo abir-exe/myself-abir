@@ -9,12 +9,17 @@ import {
 } from "react-router-dom";
 import Home from './Pages/Home/Home/Home.jsx';
 import { Toaster } from 'react-hot-toast';
+import Blogs from './Pages/Blogs/Blogs.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
   },
+  {
+    path: "/blogs",
+    element: <Blogs></Blogs>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
