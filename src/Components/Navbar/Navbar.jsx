@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -37,6 +38,11 @@ const Navbar = () => {
         <Link to="contact" smooth={true} duration={1000} offset={-70}>
           Contact Me
         </Link>
+      </li>
+      <li>
+        <NavLink to="contact" smooth={true} duration={1000} offset={-70}>
+          Blogs
+        </NavLink>
       </li>
     </>
   );
