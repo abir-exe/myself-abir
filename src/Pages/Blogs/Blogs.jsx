@@ -5,7 +5,6 @@ const Blogs = () => {
     return (
         <div>
             <Navbar></Navbar>
-            This is blogs
         </div>
     );
 };
