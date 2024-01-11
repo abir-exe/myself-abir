@@ -10,6 +10,7 @@ import {
 import Home from './Pages/Home/Home/Home.jsx';
 import { Toaster } from 'react-hot-toast';
 import Blogs from './Pages/Blogs/Blogs.jsx';
+import BlogsLayout from './Layout/BlogsLayout.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,7 +19,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/blogs",
-    element: <Blogs></Blogs>
+    element: <BlogsLayout></BlogsLayout>
   }
 ]);
 

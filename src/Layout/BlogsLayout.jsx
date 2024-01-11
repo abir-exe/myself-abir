@@ -3,7 +3,7 @@
 const BlogsLayout = () => {
     return (
         <div>
-            
+            Layout
         </div>
     );
 };
