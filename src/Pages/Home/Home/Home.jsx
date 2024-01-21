@@ -10,7 +10,7 @@ import MySkills from "../MySkills/MySkills";
 
 const Home = () => {
     return (
-        <div>
+        <div className="max-w-[1600px] mx-auto">
             <Navbar></Navbar>
             <Banner></Banner>
             <AboutMe></AboutMe>

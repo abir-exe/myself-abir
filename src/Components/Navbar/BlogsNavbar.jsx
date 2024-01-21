@@ -11,13 +11,15 @@ const BlogsNavbar = () => {
       </div>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
         <li><Link to="/">Homepage</Link></li>
-        <li><a>Portfolio</a></li>
-        <li><a>About</a></li>
+        <li><Link to="/">Portfolio</Link></li>
+        <li><Link to="/">About</Link></li>
       </ul>
     </div>
   </div>
   <div className="navbar-center">
-    <a className="btn btn-ghost text-xl uppercase">Abir Mahmud Blogs</a>
+    <Link to="/" className="btn btn-ghost text-xl uppercase">Portfolio</Link>
+    <div className="divider lg:divider-horizontal">||</div>
+    <Link to="/blogs" className="btn btn-ghost text-xl uppercase">Abir Mahmud Blogs</Link>
   </div>
   <div className="navbar-end">
     <button className="btn btn-ghost btn-circle">
