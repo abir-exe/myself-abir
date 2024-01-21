@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const Blog = ({blog}) => {
     console.log(blog)
   return (
