@@ -14,7 +14,7 @@ const BlogsLayout = () => {
         <div className="min-h-screen">
             <BlogsNavbar></BlogsNavbar>
             
-            <div className="grid grid-cols-3 gap-2 mb-2 px-5">
+            <div className="grid grid-cols-3 gap-2 mb-2 px-10">
             {
                 blogs.map(blog => <Blog key={blog.id} blog={blog}></Blog>)
             }
