@@ -3,6 +3,9 @@ import BlogsNavbar from "../Components/Navbar/BlogsNavbar";
 
 
 const BlogsLayout = () => {
+
+    
+
     return (
         <div className="min-h-screen">
             <BlogsNavbar></BlogsNavbar>
