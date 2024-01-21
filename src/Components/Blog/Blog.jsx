@@ -9,10 +9,12 @@ const Blog = ({blog}) => {
         />
       </figure>
       <div className="card-body">
-        <h2 className="card-title">Shoes!</h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <h2 className="card-title">{blog.title}</h2>
+        <h2 className="">{blog.category}</h2>
+        <p>{blog.publish_date}</p>
+        <p>{blog.description}</p>
         <div className="card-actions justify-end">
-          <button className="btn btn-primary">Buy Now</button>
+          <button className="btn btn-sm btn-ghost glass">Read More...</button>
         </div>
       </div>
     </div>

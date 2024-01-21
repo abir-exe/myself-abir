@@ -13,12 +13,13 @@ const BlogsLayout = () => {
     return (
         <div className="min-h-screen">
             <BlogsNavbar></BlogsNavbar>
-            <BlogsFooter></BlogsFooter>
-            <div className="grid grid-cols-3 gap-2 mb-2">
+            
+            <div className="grid grid-cols-3 gap-2 mb-2 px-5">
             {
                 blogs.map(blog => <Blog key={blog.id} blog={blog}></Blog>)
             }
             </div>
+            <BlogsFooter></BlogsFooter>
         </div>
     );
 };
