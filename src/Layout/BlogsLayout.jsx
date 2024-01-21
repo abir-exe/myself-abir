@@ -1,9 +1,10 @@
+import BlogsNavbar from "../Components/Navbar/BlogsNavbar";
 
 
 const BlogsLayout = () => {
     return (
         <div>
-            Layout
+            <BlogsNavbar></BlogsNavbar>
         </div>
     );
 };
