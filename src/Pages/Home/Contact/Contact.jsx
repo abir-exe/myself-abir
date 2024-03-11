@@ -59,7 +59,7 @@ const Contact = () => {
             <div>
               <Link
                 to="https://www.linkedin.com/in/web-abirmahmud/"
-                className="text-xl  hover:text-lg hover:text-black"
+                className="text-xl  hover:text-lg hover:text-black duration-300"
               >
                 <div className="flex items-center gap-2">
                   <FaLinkedin></FaLinkedin> <p>Linkedin</p>
@@ -67,7 +67,7 @@ const Contact = () => {
               </Link>
               <Link
                 to="https://www.facebook.com/abir.mahmudXD"
-                className="text-xl  hover:text-lg hover:text-black"
+                className="text-xl  hover:text-lg hover:text-black duration-300"
               >
                 <div className="flex items-center gap-2">
                   <FaFacebook></FaFacebook> <p>Facebook</p>
@@ -75,7 +75,7 @@ const Contact = () => {
               </Link>
               <Link
                 to="https://www.twitter.com/abirmahmud_"
-                className="text-xl  hover:text-lg hover:text-black"
+                className="text-xl  hover:text-lg hover:text-black duration-300"
               >
                 <div className="flex items-center gap-2">
                   <FaTwitter></FaTwitter> <p>Twitter</p>
@@ -83,7 +83,7 @@ const Contact = () => {
               </Link>
               <Link
                 to="https://github.com/abir-exe"
-                className="text-xl  hover:text-lg hover:text-black"
+                className="text-xl  hover:text-lg hover:text-black duration-300"
               >
                 <div className="flex items-center gap-2">
                   <FaGithub></FaGithub> <p>Github</p>
