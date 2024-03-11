@@ -40,7 +40,7 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-        <NavLink to="/blogs" smooth={true} duration={1000} offset={-70}>
+        <NavLink to="/blogs" smooth={true} duration={1000} offset={-70} className="hidden">
           Blogs
         </NavLink>
       </li>
@@ -73,9 +73,9 @@ const Navbar = () => {
               </svg>
             </label>
           </div>
-          <div className="flex-1 px-2 mx-2 font-extrabold text-2xl">
+          <Link  className="flex-1 px-2 mx-2 font-extrabold text-2xl cursor-help" to="about" smooth={true} duration={1000} offset={-70}>
             Abir Mahmud
-          </div>
+          </Link>
           <div className="flex-none hidden lg:block">
             <ul className="menu menu-horizontal font-bold">
               {/* Navbar menu content here */}

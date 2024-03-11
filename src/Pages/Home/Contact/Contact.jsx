@@ -146,7 +146,7 @@ const Contact = () => {
                 />
               </div>
               <div className="form-control mt-6">
-                <input type="submit" value="Send Message" className="btn btn-outline w-1/2 mx-auto" />
+                <input type="submit" value="Send Message" className="btn btn-outline w-1/2 mx-auto duration-300" />
                  
               </div>
             </form>
