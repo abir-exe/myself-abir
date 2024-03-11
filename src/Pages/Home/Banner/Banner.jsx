@@ -2,7 +2,7 @@ import resume from "../../../../public/resumeOfAbir.pdf";
 
 const Banner = () => {
     return (
-        <div id="home"
+        <div id="banner"
       className="hero min-h-screen text-end"
       style={{
         backgroundImage: "url(https://i.ibb.co/DLs48DR/maik-jonietz-y-Mcii-St-Jy-Y-unsplash.jpg)",

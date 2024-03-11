@@ -5,9 +5,9 @@ const Navbar = () => {
   const navItems = (
     <>
       <li>
-        <NavLink to="/" smooth={true} duration={1000} offset={-70}>
+        <Link to="banner" smooth={true} duration={1000} offset={-70}>
           Home
-        </NavLink>
+        </Link>
       </li>
       <li>
         <Link to="about" smooth={true} duration={1000} offset={-70}>
